@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        ".vscode",
+        "lib"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar"
+        ],
+        "exclude": [
+            "lib/okhttp-2.7.5.jar",
+            "lib/okio-1.6.0.jar"
+        ]
+    }
+}
